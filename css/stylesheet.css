@@ -642,35 +642,43 @@ transform: translate(-50%, -30%);
   
   .hero-center-text {
     color: aliceblue;
-   
+    padding: 5px;
     align-self: center;
     font-size: 50px;
-    text-shadow: 5px -12px 9px rgb(110, 92, 211),
-      -2px 13px 9px rgb(88, 63, 177), rgba(78, 42, 102, 0.12) 0px -12px 30px,
-      rgb(212, 177, 177) 0px 10px 6px, rgba(146, 31, 240, 0.17) 0px 12px 13px,
-      32px 2px 10px rgba(211, 92, 195, 1);
+    text-shadow: 5px -8px 7px rgb(110, 92, 211),
+      -12px 8px 9px rgb(88, 63, 177), 
+      rgb(212, 177, 177) 0px 10px 6px, 
+      15px 2px 10px rgb(92, 100, 211);
   }
   
   .hero-text-dark {
-    font-weight: 700;
+    margin-top: 15px;
+    font-weight: bolder;
     font-size: 50px;
     letter-spacing: 3px;
   }
   
   .hero-text-heart {
-    text-shadow: -4px 0 rgb(228, 11, 11), 0 4px rgb(241, 15, 15),
-      4px 0 rgb(243, 10, 10), 0 -4px rgb(240, 10, 10);
+        -webkit-text-stroke: 1px black;
+   text-shadow:
+       3px 3px 0 rgb(255, 46, 46),
+     -1px -2px 0 rgb(255, 46, 46), 
+      1px -2px 0 rgb(255, 46, 46),
+      -1px 2px 0 rgb(255, 46, 46),
+       1px 1px 0 rgb(255, 46, 46);
     color: #eef5fd;
-    font-size: 50px;
+    margin-top: 15px;
+    font-size: 40px;
     letter-spacing: 8px;
   }
   
   .hero-text-happiness {
+    margin-top: 15px;
     font-family: cursive;
     font-size: 50px;
     color: rgb(80, 37, 223);
-    text-shadow: -3px 0 rgb(38, 243, 226), 0 3px rgb(241, 15, 203),
-      3px 0 rgb(243, 10, 231);
+    text-shadow: -2px 0 rgb(38, 243, 226), 0 2px rgb(241, 15, 203),
+      2px 0 rgb(243, 10, 231);
       letter-spacing: 8px;
   }
   
