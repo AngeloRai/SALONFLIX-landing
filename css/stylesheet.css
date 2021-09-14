@@ -623,9 +623,28 @@ nav.sticky .nav-contact {
 
 /* ------------------------------------------------------ HOME PAGE 33 STARTS ---------- */
 
+
+@font-face {
+  font-family: 'league_gothicregular';
+  src: url('../fonts/webfontkit-20210914-114107/leaguegothic-regular-webfont.woff2') format('woff2'),
+       url('../fonts/webfontkit-20210914-114107/leaguegothic-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 .hero-container {
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 33%;
+text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* right: 50%;
+  top: 50%; */
 }
 
 .top-logo {
@@ -654,7 +673,7 @@ nav.sticky .nav-contact {
 }
 
 .icon-box a {
-  color: black;
+  color: rgb(228, 197, 197);
 }
 
 .icon-inner-box {
@@ -681,42 +700,42 @@ nav.sticky .nav-contact {
 }
 
 .hero-center-text {
-  color: aliceblue;
+  font-family: 'league_gothicregular';
+letter-spacing: 2px;
+line-height: 40px;
+  color: rgb(246, 246, 246);
   padding: 5px;
   align-self: center;
   font-size: 50px;
-  text-shadow: 5px -8px 7px rgb(110, 92, 211), -12px 8px 9px rgb(88, 63, 177),
-    rgb(212, 177, 177) 0px 10px 6px, 15px 2px 10px rgb(92, 100, 211);
+  text-shadow: 0 0 10px rgba(35, 6, 201, 0.7), 0 0 20px rgba(7, 25, 124, 0.5),
+    rgba(24, 10, 228, 0.3) 0 0 30px, 0 0 40px rgba(5, 15, 156, 0.3);
 }
 
 .hero-text-dark {
-  margin-top: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: black;
   font-weight: bolder;
   font-size: 50px;
-  letter-spacing: 3px;
-  line-height: 60px;
+  line-height: 65px;
 }
 
 .hero-text-heart {
-  -webkit-text-stroke: 1px black;
-  text-shadow: 3px 3px 0 rgb(255, 46, 46), -1px -2px 0 rgb(255, 46, 46),
-    1px -2px 0 rgb(255, 46, 46), -1px 2px 0 rgb(255, 46, 46),
-    1px 1px 0 rgb(255, 46, 46);
-  color: #eef5fd;
-  margin-top: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-text-stroke: 3px rgb(233, 13, 13);
+  color: transparent;
   font-size: 40px;
-  letter-spacing: 8px;
-  line-height: 60px;
+
+  line-height: 65px;
 }
 
 .hero-text-happiness {
   line-height: 60px;
-  font-family: cursive;
+  font-family: 'Crafty Girls', cursive;
   font-size: 50px;
   color: rgb(80, 37, 223);
   text-shadow: -2px 0 rgb(38, 243, 226), 0 2px rgb(241, 15, 203),
     2px 0 rgb(243, 10, 231);
-  letter-spacing: 8px;
+  letter-spacing: 5px;
 }
 
 .central-pic {
@@ -733,16 +752,24 @@ nav.sticky .nav-contact {
 @media (max-width: 480px) {
   .hero-center-text {
     font-size: 40px;
+    line-height: 32px;
   }
   .hero-text-dark {
     font-size: 40px;
   }
 
   .hero-text-heart {
-    font-size: 40px;
+    font-size: 27px !important;
   }
   .hero-text-happiness {
     font-size: 40px;
+    line-height: 30px;
+  }
+
+  .home-33 #portfolio .herotext h1 {
+    font-size: 50px;
+    font-weight: 800;
+    
   }
 }
 
@@ -786,21 +813,23 @@ nav.sticky .nav-contact {
   right: 0;
 }
 .home-33 .services {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
 }
 .home-33 .services h2 {
   font-size: 24px;
   font-weight: 500px;
   color: #000;
   margin-top: 0px;
-  padding-top: 0px;
+  padding: 0 5px;
 }
 .home-33 .services h1 {
   font-size: 70px;
   font-weight: 900;
   color: #000;
   margin-top: 0px;
+  padding: 0 5px;
 }
 .home-33 .services h1 span {
   color: #ff5617;
@@ -809,7 +838,7 @@ nav.sticky .nav-contact {
   font-size: 22px;
   font-weight: 500;
   color: #000;
-  padding-top: 14px;
+  padding: 14px 5px 0;
 }
 .h-33-services.owl-theme .owl-controls {
   margin-top: 40px;
@@ -817,10 +846,16 @@ nav.sticky .nav-contact {
   float: left;
 }
 .home-33 #portfolio {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .home-33 #portfolio .herotext h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: #000;
+  margin-top: 0px;
+}
+.home-33 #portfolio .herotext2 h1 {
   font-size: 70px;
   font-weight: 900;
   color: #000;
@@ -900,7 +935,7 @@ nav.sticky .nav-contact {
   font-size: 80px;
   font-weight: 600;
   color: #fff;
-  line-height: 70px;
+  line-height: 80px;
   background-color: #ff5617;
   padding: 12px;
   padding-bottom: 4px;
@@ -2049,11 +2084,13 @@ section {
 /* ------------------------------------------------------ TESTIMONIAL 17 STARTS  ------------------ */
 
 .testimonial-17 {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  
 }
 .testimonial-17 .block {
   width: 90%;
+  
 }
 .testimonial-17 .block h1 {
   font-size: 70px;

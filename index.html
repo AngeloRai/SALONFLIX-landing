@@ -9,6 +9,21 @@
     <!-- All Stylesheets -->
     <link href="css/all-stylesheets.css" rel="stylesheet" />
     <link href="css/stylesheet.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="icon"
       type="image/png"
@@ -76,7 +91,14 @@
           <li><a href="#" class="overlay-close-btn">Pages</a></li>
           <li><a href="#" class="overlay-close-btn">Portfolio</a></li>
           <li><a href="#" class="overlay-close-btn">Blog</a></li> -->
-          <li><a href="https://www.salonflix.com.br/" target="_blank" class="overlay-close-btn">Contact us</a></li>
+          <li>
+            <a
+              href="https://www.salonflix.com.br/"
+              target="_blank"
+              class="overlay-close-btn"
+              >Contact us</a
+            >
+          </li>
           <!-- <li><a href="#" class="overlay-close-btn">Shop</a></li> -->
         </ul>
       </nav>
@@ -133,20 +155,22 @@
                 <div class="icon-inner-box">
                   <a href="https://www.facebook.com/salonflix/" target="_blank"
                     ><i class="fa fa-facebook"></i></a
-                  ><a href="https://www.instagram.com/salon.flix/" target="_blank"
+                  ><a
+                    href="https://www.instagram.com/salon.flix/"
+                    target="_blank"
                     ><i class="fa-icon-camera-retro"></i
                   ></a>
                 </div>
               </div>
-            
+
               <!-- LAYER NR. 1 -->
-              <div
+              <!-- <div
                 class="tp-caption Agency-SubTitle tp-resizeme"
                 data-fontsize="['100','80','50','30']"
                 data-lineheight="['70','65','85','45']"
                 data-color="#000"
                 data-height="none"
-                data-hoffset="['0','0','0','0']"
+                data-hoffset="['100','120','0','0']"
                 data-responsive_offset="on"
                 data-splitin="none"
                 data-splitout="none"
@@ -167,16 +191,16 @@
                   font-weight: 600;
                 "
               >
-                <div class="hero-container">
-                  <div class="hero-center-text">TRABALHAR COM AS</div>
-                  <div class="hero-center-text">MÃOS É TERAPIA</div>
-                  <div>
-                    <span class="hero-text-dark">com o</span>
-                    <span class="hero-text-heart">&nbsp;CORAÇÃO</span>
-                  </div>
-                  <div class="hero-text-happiness">uma alegria!</div>
-                </div>
+            </div> -->
+            <div class="hero-container">
+              <div class="hero-center-text">TRABALHAR COM AS</div>
+              <div class="hero-center-text">MÃOS É TERAPIA</div>
+              <div>
+                <span class="hero-text-dark">com o</span>
+                <span class="hero-text-heart">&nbsp;CORAÇÃO</span>
               </div>
+              <div class="hero-text-happiness">uma alegria!</div>
+            </div>
 
               <!-- LAYER NR. 3 -->
               <div class="row">
@@ -191,11 +215,11 @@
                   "
                   id="slide-148-layer-3"
                   data-x="['center','center','center','center']"
-                  data-hoffset="['-140','-140','-140','-120']"
+                  data-hoffset="['-100','-95','-110','-100']"
                   data-y="['center','center','center','center']"
                   data-voffset="['190','190','190','190']"
                   data-fontsize="['16','16','14','12']"
-                  data-lineheight="['16','16','14','12']"
+                  data-lineheight="['14','14','12','10']"
                   data-whitespace="nowrap"
                   data-transform_idle="o:1;"
                   data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
@@ -233,11 +257,11 @@
                   "
                   id="slide-148-layer-3"
                   data-x="['center','center','center','center']"
-                  data-hoffset="['140','140','140','120']"
+                  data-hoffset="['100','95','110','100']"
                   data-y="['center','center','center','center']"
                   data-voffset="['190','190','190','190']"
                   data-fontsize="['16','16','14','12']"
-                  data-lineheight="['16','16','14','12']"
+                  data-lineheight="['14','14','12','10']"
                   data-whitespace="nowrap"
                   data-transform_idle="o:1;"
                   data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
@@ -280,7 +304,7 @@
             ========================================================================= -->
     <div class="container-fluid services">
       <div class="row no-gutter-6">
-        <div class="col-lg-5 col-md-6 col-lg-offset-2 col-md-offset-1 m-5">
+        <div class="col-lg-5 col-md-6 col-lg-offset-2 col-md-offset-1 m-3">
           <div class="h-33-services">
             <div class="item">
               <h2>SALONFLIX</h2>
@@ -499,11 +523,11 @@
                 data-option-key="filter"
               >
                 <li>
-                  <a style="font-size: 2rem" href="#" class="selected"
+                  <a style="font-size: 2rem" href="#filter" data-option-value="*" class="selected"
                     >SEU SITE DE ASSINATURAS</a
                   >
                 </li>
-                <li><a style="font-size: 2rem" href="#">CONTA DIGITAL</a></li>
+                <li><a style="font-size: 2rem" href="#filter" data-option-value=".web">CONTA DIGITAL</a></li>
               </ul>
             </div>
             <!-- Portfolio Nav Ends -->
@@ -516,7 +540,7 @@
                   <!-- Picture Overlay Starts -->
                   <div class="p-overlay">
                     <div>
-                      <div class="caption1">Simples e Rapido</div>
+                      <div class="caption1">Simples e Rápido</div>
                       <div class="cat" style="color: navy">Sem Segredos</div>
                     </div>
                   </div>
@@ -525,14 +549,14 @@
               </figure>
               <!-- Project 1 Ends -->
               <!-- Project 2 Starts -->
-              <figure class="item photos web">
+              <figure class="item photos">
                 <div class="picture">
                   <img src="./images/como-usar-2.png" alt="" />
                   <!-- Picture Overlay Starts -->
                   <div class="p-overlay">
                     <div>
                       <div class="caption1">Intuitivo</div>
-                      <div class="cat" style="color: navy">Sem compliações</div>
+                      <div class="cat" style="color: navy">Sem complicações</div>
                     </div>
                   </div>
                   <!-- Picture Overlay Ends -->
@@ -540,13 +564,13 @@
               </figure>
               <!-- Project 2 Ends -->
               <!-- Project 3 Starts -->
-              <figure class="item mobile">
+              <figure class="item web">
                 <div class="picture">
                   <img src="./images/como-usar-3.png" alt="" />
                   <!-- Picture Overlay Starts -->
                   <div class="p-overlay">
                     <div>
-                      <div class="caption1">Voçe Escolhe</div>
+                      <div class="caption1">Você Escolhe</div>
                       <div class="cat" style="color: navy"></div>
                     </div>
                   </div>
