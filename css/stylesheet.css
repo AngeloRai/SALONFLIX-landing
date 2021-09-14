@@ -3063,7 +3063,7 @@ section {
 }
 
 .parallax-69 {
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-image: url(../images/middle-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
