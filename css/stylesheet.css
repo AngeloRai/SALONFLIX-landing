@@ -356,8 +356,7 @@ nav.sticky .nav-contact {
 .dropdown-menu .yamm-content {
   padding: 10px;
 }
-.dropdown-menu .yamm-content ul {
-}
+
 .dropdown-menu .yamm-content ul li {
   list-style-type: none;
   min-width: 180px;
@@ -528,57 +527,10 @@ nav.sticky .nav-contact {
   font-size: 20px;
   cursor: pointer;
 }
-.shop-menu .yamm-content {
-  padding-top: 30px;
-}
-.shop-menu .listing li {
-  margin-bottom: 30px;
-}
-.shop-menu .listing .picture {
-  float: left;
-  margin-right: 20px;
-}
-.shop-menu .listing .caption a {
-  font-size: 14px;
-  padding: 0px;
-  padding-bottom: 8px;
-}
-.shop-menu .listing .caption a:hover {
-  background-color: transparent;
-}
-.shop-menu .listing .info .price {
-  font-size: 16px;
-  color: #0090bf;
-}
-.shop-menu .featured-product .caption {
-  line-height: normal;
-  white-space: nowrap;
-  font-size: 14px;
-  color: #a7a7a7;
-}
-.shop-menu .featured-product h3 {
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #a7a7a7;
-  padding-top: 0px;
-  margin-top: 0px;
-  font-weight: 300;
-}
-.shop-menu .featured-product .picture {
-  padding-bottom: 10px;
-}
-.shop-menu .featured-product .caption {
-  font-size: 14px;
-  color: #a7a7a7;
-}
-.shop-menu .featured-product .price {
-  font-size: 20px;
-  color: #0090bf;
-}
+
 .nav-contact {
   display: inline-block;
   text-align: right;
-  float: right;
   padding-top: 33px;
   padding-right: 25px;
   padding-bottom: 18px;
@@ -623,28 +575,24 @@ nav.sticky .nav-contact {
 
 /* ------------------------------------------------------ HOME PAGE 33 STARTS ---------- */
 
-
 @font-face {
-  font-family: 'league_gothicregular';
-  src: url('../fonts/webfontkit-20210914-114107/leaguegothic-regular-webfont.woff2') format('woff2'),
-       url('../fonts/webfontkit-20210914-114107/leaguegothic-regular-webfont.woff') format('woff');
+  font-family: "league_gothicregular";
+  src: url("../fonts/webfontkit-20210914-114107/leaguegothic-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-20210914-114107/leaguegothic-regular-webfont.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 
 .hero-container {
   position: absolute;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-top: 33%;
-text-align: center;
-  /* display: flex;
-  flex-direction: column; */
-  /* right: 50%;
-  top: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 38%;
+  text-align: center;
 }
 
 .top-logo {
@@ -654,10 +602,82 @@ text-align: center;
   transform: translate(-50%, -30%);
 }
 
+.hero-text-box {
+  position: absolute;
+}
+
+.purple-splash-box {
+  position: relative;
+
+  left: 180px;
+}
+
+.nail-polish-box {
+  position: relative;
+  left: 80px;
+}
+
+.inner-hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.purple-splash {
+  transform: rotate(50deg);
+  position: relative;
+  height: 20%;
+  top: 60px;
+  left: -190px;
+}
+
+.hero-scissors {
+  position: absolute;
+  height: 30%;
+  top: 30px;
+  left: 150px;
+  transform: rotate(-30deg);
+}
+
+.barber-pole {
+  position: absolute;
+  height: 18%;
+  top: -30px;
+  left: 265px;
+  transform: rotate(-10deg);
+}
+
+.razor {
+  position: absolute;
+  height: 18%;
+  top: -40px;
+  left: -40px;
+  transform: rotate(-10deg);
+}
+
+.heart {
+  position: absolute;
+  height: 17%;
+  top: 70px;
+  left: 20px;
+  
+}
+
+.nail-polish {
+  position: relative;
+    height: 20%;
+    top: 160px;
+    left: -95px;
+    transform: rotate(15deg);
+}
+
 .logo-box {
   display: flex;
   flex-direction: column;
   color: black;
+}
+
+.top-logo img {
+  height: 120px;
 }
 
 .icon-box {
@@ -668,7 +688,7 @@ text-align: center;
   font-size: 2.5rem;
   position: absolute;
   left: 50%;
-  top: 21%;
+  top: 18%;
   transform: translate(-50%, -30%);
 }
 
@@ -677,9 +697,9 @@ text-align: center;
 }
 
 .icon-inner-box {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .fa-facebook:hover {
@@ -694,15 +714,10 @@ text-align: center;
   transition: 0.5s;
 }
 
-.top-logo img {
-  width: 100px;
-  height: 100px;
-}
-
 .hero-center-text {
-  font-family: 'league_gothicregular';
-letter-spacing: 2px;
-line-height: 40px;
+  font-family: "league_gothicregular";
+  letter-spacing: 2px;
+  line-height: 40px;
   color: rgb(246, 246, 246);
   padding: 5px;
   align-self: center;
@@ -712,7 +727,7 @@ line-height: 40px;
 }
 
 .hero-text-dark {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: black;
   font-weight: bolder;
   font-size: 50px;
@@ -720,7 +735,7 @@ line-height: 40px;
 }
 
 .hero-text-heart {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   -webkit-text-stroke: 3px rgb(233, 13, 13);
   color: transparent;
   font-size: 40px;
@@ -729,8 +744,8 @@ line-height: 40px;
 }
 
 .hero-text-happiness {
-  line-height: 60px;
-  font-family: 'Crafty Girls', cursive;
+  line-height: 50px;
+  font-family: "Crafty Girls", cursive;
   font-size: 50px;
   color: rgb(80, 37, 223);
   text-shadow: -2px 0 rgb(38, 243, 226), 0 2px rgb(241, 15, 203),
@@ -742,15 +757,93 @@ line-height: 40px;
   min-height: 100%;
 }
 
-.img-box {
+/* .img-box {
   display: flex;
   flex-wrap: no-wrap;
   margin: 1rem 0;
   padding: 0;
+} */
+.grid-img {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  aspect-ratio: 4.09 / 3;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
+  .barber-pole {
+    height: 13%;
+    top: -20px;
+    left: 300px;
+    transform: rotate(-10deg);
+  }
+
+  .razor {
+    position: absolute;
+    height: 13%;
+    top: -20px;
+    left: -30px;
+    transform: rotate(-10deg);
+  }
+  
+  .heart {
+    position: absolute;
+    height: 12%;
+    top: 70px;
+    left: 10px;
+    
+  }
+
+  .nail-polish {
+    position: relative;
+    height: 10%;
+    top: 180px;
+    left: -230px;
+  }
+
   .hero-center-text {
+    font-size: 36px;
+    line-height: 26px;
+  }
+  .hero-text-dark {
+    font-size: 32px;
+    line-height: 26px;
+  }
+
+  .hero-text-heart {
+    font-size: 25px !important;
+    line-height: 26px;
+  }
+  .hero-text-happiness {
+    font-size: 32px;
+    line-height: 25px;
+  }
+
+  .home-33 #portfolio .herotext h1 {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .purple-splash {
+    transform: rotate(50deg);
+    position: relative;
+    height: 15%;
+    top: 30px;
+    left: -120px;
+    transform: rotate(40deg);
+  }
+  .hero-scissors {
+    height: 22%;
+    top: 10px;
+    left: 240px;
+    transform: rotate(-30deg);
+  }
+  
+}
+
+
+@media (max-width: 480px) {
+  /* .hero-center-text {
     font-size: 40px;
     line-height: 32px;
   }
@@ -762,15 +855,60 @@ line-height: 40px;
     font-size: 27px !important;
   }
   .hero-text-happiness {
-    font-size: 40px;
-    line-height: 30px;
-  }
+    font-size: 35px;
+    line-height: 25px;
+  } */
 
   .home-33 #portfolio .herotext h1 {
     font-size: 50px;
     font-weight: 800;
+  }
+
+  .purple-splash {
+    transform: rotate(50deg);
+    position: relative;
+    height: 15%;
+    top: 30px;
+    left: -120px;
+    transform: rotate(40deg);
+  }
+  .hero-scissors {
+    height: 22%;
+    top: 10px;
+    left: 240px;
+    transform: rotate(-30deg);
+  }
+  .barber-pole {
+    height: 13%;
+    top: -20px;
+    left: 317px;
+    transform: rotate(-10deg);
+  }
+
+  .razor {
+    position: absolute;
+    height: 11%;
+    top: -15px;
+    left: -60px;
+    transform: rotate(-10deg);
+  }
+  
+  .heart {
+    position: absolute;
+    height: 8%;
+    top: 80px;
+    left: -50px;
     
   }
+
+  .nail-polish {
+    position: relative;
+    height: 8%;
+    top: 170px;
+    left: -290px;
+  }
+
+
 }
 
 .home-33 #trigger-overlay span {
@@ -815,7 +953,6 @@ line-height: 40px;
 .home-33 .services {
   padding-top: 70px;
   padding-bottom: 70px;
-  
 }
 .home-33 .services h2 {
   font-size: 24px;
@@ -1796,14 +1933,36 @@ section {
   color: #039be5;
 }
 .mockup-section-14 .block {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
-  width: 70%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   min-height: 486px;
 }
+@media (max-width: 1000px) {
+  .mockup-section-14 .block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 350px;
+  }
+}
+.img-responsive {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .mockup-section-14 .box {
   border: 1px solid #e7e7e7;
 }
@@ -1813,14 +1972,24 @@ section {
 .mockup-section-14 .block .icon {
   font-size: 60px;
   color: #000;
-  padding-bottom: 16px;
+  padding-bottom: 6px;
 }
+.mockup-section-14 .block .icon img{
+  max-height: 130px;
+}
+.mobile-laptop {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
 .mockup-section-14 .block h1 {
   font-size: 18px;
   font-weight: 500;
   padding-bottom: 16px;
   color: #000;
   text-transform: uppercase;
+  min-height: 104px;
 }
 .mockup-section-14 .block .description {
   font-size: 16px;
@@ -2086,11 +2255,9 @@ section {
 .testimonial-17 {
   padding-top: 100px;
   padding-bottom: 30px;
-  
 }
 .testimonial-17 .block {
   width: 90%;
-  
 }
 .testimonial-17 .block h1 {
   font-size: 70px;
@@ -3064,7 +3231,7 @@ section {
 
 .parallax-69 {
   background-attachment: fixed;
-  background-image: url(../images/middle-background.jpg);
+  background-image: url(../images/mid-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0;
@@ -3224,8 +3391,7 @@ section {
   font-size: 14px;
   color: #999;
 }
-.footer-03 .row1 .links {
-}
+
 .footer-03 .row1 .links ul {
   padding: 0px;
   margin: 0px;
@@ -5021,7 +5187,7 @@ section {
     font-size: 50px;
     font-weight: 500;
     border: 0px solid #000;
-    padding-top: 12px;
+    padding-top: 32px;
     padding-bottom: 12px;
     background-color: transparent;
     -webkit-border-radius: 0px;
