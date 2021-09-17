@@ -1052,7 +1052,7 @@ nav.sticky .nav-contact {
   position: relative;
 }
 .home-33 #portfolio .picture .p-overlay {
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   display: block;
   position: absolute !important;
   left: 0;
@@ -1110,7 +1110,7 @@ nav.sticky .nav-contact {
 
 
 .home-33 #portfolio.portfolio-overlay {
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   display: block;
   position: absolute !important;
   top: 0;
