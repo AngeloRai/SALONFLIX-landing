@@ -1086,7 +1086,7 @@ nav.sticky .nav-contact {
   padding-bottom: 4px;
 }
 
-.home-33 #portfolio .icture .p-overlay .cat {
+.home-33 #portfolio .picture .p-overlay .caption1 .cat {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -1094,6 +1094,20 @@ nav.sticky .nav-contact {
   padding: 12px;
   padding-top: 2px;
 }
+@media screen and (max-width: 480px) {
+  .home-33 #portfolio .picture .p-overlay .caption1 {
+    font-size: 40px;
+    line-height: 50px;
+   
+  }
+  .home-33 #portfolio .picture .p-overlay .caption1 .cat {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    
+  }
+}
+
 
 .home-33 #portfolio.portfolio-overlay {
   -webkit-backface-visibility: hidden;
