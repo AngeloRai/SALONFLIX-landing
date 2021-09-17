@@ -771,6 +771,7 @@ nav.sticky .nav-contact {
 }
 
 @media (max-width: 800px) {
+
   .barber-pole {
     height: 13%;
     top: -20px;
@@ -842,22 +843,29 @@ nav.sticky .nav-contact {
 }
 
 
-@media (max-width: 480px) {
-  /* .hero-center-text {
-    font-size: 40px;
-    line-height: 32px;
+@media screen and (max-width: 480px) {
+
+  .hero-container {
+   
+    top: 30%;
+   
+  }
+
+  .hero-center-text {
+    font-size: 31px;
+    line-height: 24px;
   }
   .hero-text-dark {
-    font-size: 40px;
+    font-size: 28px;
   }
 
   .hero-text-heart {
-    font-size: 27px !important;
+    font-size: 21px !important;
   }
   .hero-text-happiness {
-    font-size: 35px;
-    line-height: 25px;
-  } */
+    font-size: 28px;
+    line-height: 22px;
+  }
 
   .home-33 #portfolio .herotext h1 {
     font-size: 50px;
@@ -867,21 +875,21 @@ nav.sticky .nav-contact {
   .purple-splash {
     transform: rotate(50deg);
     position: relative;
-    height: 15%;
-    top: 30px;
-    left: -120px;
+    height: 10%;
+    top: 160px;
+    left: -15px;
     transform: rotate(40deg);
   }
   .hero-scissors {
-    height: 22%;
-    top: 10px;
-    left: 240px;
-    transform: rotate(-30deg);
+    height: 16%;
+    top: 140px;
+    left: 340px;
+    transform: rotate(-43deg);
   }
   .barber-pole {
-    height: 13%;
-    top: -20px;
-    left: 317px;
+    height: 11%;
+    top: -10px;
+    left: 337px;
     transform: rotate(-10deg);
   }
 
@@ -889,7 +897,7 @@ nav.sticky .nav-contact {
     position: absolute;
     height: 11%;
     top: -15px;
-    left: -60px;
+    left: -90px;
     transform: rotate(-10deg);
   }
   
@@ -897,7 +905,7 @@ nav.sticky .nav-contact {
     position: absolute;
     height: 8%;
     top: 80px;
-    left: -50px;
+    left: -70px;
     
   }
 
@@ -905,7 +913,7 @@ nav.sticky .nav-contact {
     position: relative;
     height: 8%;
     top: 170px;
-    left: -290px;
+    left: -310px;
   }
 
 
