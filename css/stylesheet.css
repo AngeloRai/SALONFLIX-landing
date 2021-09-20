@@ -753,6 +753,11 @@ nav.sticky .nav-contact {
   letter-spacing: 5px;
 }
 
+
+.card1 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
 .central-pic {
   min-height: 100%;
 }
@@ -1346,7 +1351,7 @@ nav.sticky .nav-contact {
   .owl-controls
   .owl-page.active
   span.owl-numbers {
-  height: 70px;
+  height: 100%;
   width: 100px;
   filter: Alpha(Opacity=100);
   opacity: 1;
@@ -2278,6 +2283,9 @@ section {
   padding-top: 100px;
   padding-bottom: 30px;
 }
+
+
+
 .testimonial-17 .block {
   width: 90%;
 }
@@ -2363,6 +2371,20 @@ section {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .testimonial-17 {
+    padding-top: 2rem;
+
+  }
+
+  .testimonial-17 .block h1 {
+    font-size: 40px;
+    font-weight: 600;
+    
+  }
 }
 /* ------------------------------------------------------ TESTIMONIAL 17 ENDS  ------------------ */
 /* ------------------------------------------------------ CAROUSEL 05 STARTS  ------------------ */
@@ -3856,47 +3878,7 @@ section {
     padding-right: 20px;
     line-height: 170px;
   }
-  .team-style-01 .block,
-  .team-style-02 .block,
-  .team-style-03 .block,
-  .team-style-04 .block,
-  .team-style-05 .block,
-  .team-style-06 .block {
-    padding-bottom: 40px;
-  }
-  .team-style-04 .block .picture {
-    margin-bottom: 20px;
-  }
-  .team-style-09 .accordion ul li div a * {
-    opacity: 0;
-    margin: 0;
-    width: 90%;
-    padding-left: 20%;
-    position: relative;
-    z-index: 5;
-    overflow: hidden;
-    -webkit-transform: translateX(-20px);
-    transform: translateX(-20px);
-    -webkit-transition: all 400ms ease;
-    transition: all 400ms ease;
-  }
-  .team-style-09 .accordion ul li div a h2 {
-    text-overflow: clip;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-bottom: 2px;
-    top: 10px;
-  }
-  .team-style-09 .accordion ul li div a .designation {
-    top: 10px;
-    font-size: 16px;
-    margin-bottom: 3px;
-  }
-  .team-style-09 .accordion ul li div a p {
-    top: 10px;
-    font-size: 14px;
-    line-height: normal;
-  }
+    
   .icon-style-03 .block {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -5158,8 +5140,8 @@ section {
     margin-top: 0px;
   }
   .testimonial-17 .block h1 {
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 600;
     color: #fff;
     margin-top: 0px;
   }
@@ -5167,7 +5149,7 @@ section {
     .owl-controls
     .owl-page.active
     span.owl-numbers {
-    height: 20px;
+    height: 100%;
     width: 100px;
     filter: Alpha(Opacity=100);
     opacity: 1;
@@ -5202,15 +5184,16 @@ section {
     border: 0px solid #ff5617;
   }
   .testimonial-17-carousel.owl-theme .owl-controls .owl-page span.owl-numbers {
-    height: 20px;
+    height: 100%;
     width: 100px;
     color: #fff;
     opacity: 0.3;
     font-size: 50px;
     font-weight: 500;
     border: 0px solid #000;
-    padding-top: 32px;
-    padding-bottom: 12px;
+
+    margin-top: 30px;
+    padding: 0px;
     background-color: transparent;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
