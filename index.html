@@ -539,7 +539,7 @@
               </div>
               <!-- Portfolio Nav Ends -->
               <!-- Portfolio Thumbs Starts -->
-              <div class="mansory-effect">
+              <div class="make2columns mansory-effect">
                 <!-- Project 1 Starts -->
                 <figure class="item web">
                   <div class="picture">
@@ -980,152 +980,92 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- MENU -->
+    <script src="js/bootstrap.min.js"></script>		
+    <!-- MENU -->       
     <script src="js/overlay-menu/js/snap.svg-min.js"></script>
     <script src="js/overlay-menu/js/modernizr.custom.js"></script>
     <script src="js/overlay-menu/js/classie.js"></script>
     <script src="js/overlay-menu/js/overlay-main.js"></script>
     <!-- REVOLUTION JS FILES -->
-    <script
-      type="text/javascript"
-      src="revolution/js/jquery.themepunch.tools.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/jquery.themepunch.revolution.min.js"
-    ></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-            (Load Extensions only on Local File Systems !  
-            The following part can be removed on Server for On Demand Loading) -->
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.actions.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.carousel.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.kenburn.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.layeranimation.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.migration.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.navigation.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.parallax.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.slideanims.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/extensions/revolution.extension.video.min.js"
-    ></script>
+        (Load Extensions only on Local File Systems !  
+        The following part can be removed on Server for On Demand Loading) -->	
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script type="text/javascript">
-      var tpj = jQuery;
-
-      var revapi280;
-      tpj(document).ready(function () {
-        if (tpj("#rev_slider_280_1").revolution == undefined) {
-          revslider_showDoubleJqueryError("#rev_slider_280_1");
-        } else {
-          revapi280 = tpj("#rev_slider_280_1")
-            .show()
-            .revolution({
-              sliderType: "hero",
-              jjsFileLocation:
-                "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
-              sliderLayout: "fullscreen",
-              dottedOverlay: "none",
-              delay: 9000,
-              navigation: {},
-              responsiveLevels: [1240, 1024, 778, 480],
-              visibilityLevels: [1240, 1024, 778, 480],
-              gridwidth: [1240, 1024, 778, 480],
-              gridheight: [868, 768, 960, 720],
-              lazyType: "none",
-              parallax: {
-                type: "scroll",
-                origo: "slidercenter",
-                speed: 1000,
-                levels: [
-                  5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55,
-                ],
-                type: "scroll",
-              },
-              shadow: 0,
-              spinner: "spinner2",
-              autoHeight: "off",
-              fullScreenAutoWidth: "off",
-              fullScreenAlignForce: "off",
-              fullScreenOffsetContainer: "",
-              fullScreenOffset: "0px",
-              disableProgressBar: "on",
-              hideThumbsOnMobile: "off",
-              hideSliderAtLimit: 0,
-              hideCaptionAtLimit: 0,
-              hideAllCaptionAtLilmit: 0,
-              debugMode: false,
-              fallbacks: {
-                simplifyAll: "off",
-                disableFocusListener: false,
-              },
-            });
-        }
-      }); /*ready*/
+        var tpj = jQuery;
+        
+        var revapi280;
+        tpj(document).ready(function() {
+            if (tpj("#rev_slider_280_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_280_1");
+            } else {
+                revapi280 = tpj("#rev_slider_280_1").show().revolution({
+                    sliderType: "hero",
+                    jjsFileLocation: "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
+                    sliderLayout: "fullscreen",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {},
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1240, 1024, 778, 480],
+                    gridheight: [868, 768, 960, 720],
+                    lazyType: "none",
+                    parallax: {
+                        type: "scroll",
+                        origo: "slidercenter",
+                        speed: 1000,
+                        levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+                        type: "scroll",
+                    },
+                    shadow: 0,
+                    spinner: "spinner2",
+                    autoHeight: "off",
+                    fullScreenAutoWidth: "off",
+                    fullScreenAlignForce: "off",
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "0px",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        }); /*ready*/
     </script>
     <!-- Parallax -->
-
-    <script
-      type="text/javascript"
-      src="js/parallax/jquery.parallax-1.1.3.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="js/parallax/jquery.localscroll-1.2.7-min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="js/parallax/jquery.scrollTo-1.4.2-min.js"
-    ></script>
-    <!-- AJAX Contact Form -->
+    <script type="text/javascript" src="js/parallax/jquery.parallax-1.1.3.js"></script> 
+    <script type="text/javascript" src="js/parallax/jquery.localscroll-1.2.7-min.js"></script> 
+    <script type="text/javascript" src="js/parallax/jquery.scrollTo-1.4.2-min.js"></script>
+    <!-- AJAX Contact Form --> 			
     <script type="text/javascript" src="js/contact/contact-form.js"></script>
-    <!-- FitVids -->
+    <!-- FitVids --> 
     <script type="text/javascript" src="js/fitvids/jquery.fitvids.js"></script>
     <!-- Owl Carousel -->
-    <script
-      type="text/javascript"
-      src="js/owl-carousel/owl.carousel-pagination.js"
-    ></script>
-    <!-- Isotope -->
-    <script
-      type="text/javascript"
-      src="js/isotope/jquery.isotope.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="js/isotope/custom-isotope-mansory.js"
-    ></script>
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel-pagination.js"></script>
+    <!-- Isotope --> 
+    <script type="text/javascript" src="js/isotope/jquery.isotope.min.js"></script> 
+    <script type="text/javascript" src="js/isotope/custom-isotope-mansory.js"></script>
     <!-- Magnific Popup core JS file -->
-    <script
-      type="text/javascript"
-      src="js/magnific-popup/jquery.magnific-popup.js"
-    ></script>
-    <!-- Retina -->
-    <script type="text/javascript" src="js/retina/retina.js"></script>
+    <script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.js"></script>		
+    <!-- Retina --> 
+    <script type="text/javascript" src="js/retina/retina.js"></script> 
     <!-- FlexSlider -->
     <script defer src="js/flexslider/jquery.flexslider.js"></script>
     <!-- Custom JS -->
