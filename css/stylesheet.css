@@ -591,7 +591,7 @@ nav.sticky .nav-contact {
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 38%;
+  top: 40%;
   text-align: center;
 }
 
@@ -601,6 +601,11 @@ nav.sticky .nav-contact {
   top: 10%;
   transform: translate(-50%, -30%);
 }
+.inner-hero-container {
+  display: flex;
+  justify-content: center;
+}
+
 
 .hero-text-box {
   position: absolute;
@@ -608,65 +613,61 @@ nav.sticky .nav-contact {
 
 .purple-splash-box {
   position: relative;
-
-  left: 180px;
-}
-
-.nail-polish-box {
-  position: relative;
-  left: 80px;
-}
-
-.inner-hero-container {
-  display: flex;
-  justify-content: center;
+  height: 400px;
+  right: 240px;
 }
 
 .purple-splash {
   transform: rotate(50deg);
   position: relative;
-  height: 20%;
+  height: 30%;
   top: 60px;
-  left: -190px;
+  left: 35px;
 }
 
 .hero-scissors {
   position: absolute;
-  height: 30%;
-  top: 30px;
-  left: 150px;
+  height:45%;
+  top: 45px;
+  left: 140px;
   transform: rotate(-30deg);
 }
 
 .barber-pole {
   position: absolute;
-  height: 18%;
-  top: -30px;
-  left: 265px;
+  height: 28%;
+  top: -20px;
+  left: 250px;
   transform: rotate(-10deg);
+}
+
+.nail-polish-box {
+  position: relative;
+  height: 400px;
+  left: 140px;
 }
 
 .razor {
   position: absolute;
-  height: 18%;
-  top: -40px;
-  left: -40px;
+  height: 27%;
+  top: -20px;
+  left: -20px;
   transform: rotate(-10deg);
 }
 
 .heart {
-  position: absolute;
-  height: 17%;
-  top: 70px;
+  position: relative;
+  height: 24%;
+  top: 90px;
   left: 20px;
   
 }
 
 .nail-polish {
   position: relative;
-    height: 20%;
-    top: 160px;
-    left: -95px;
+    height: 30%;
+    top: 175px;
+    
     transform: rotate(15deg);
 }
 
@@ -762,12 +763,7 @@ nav.sticky .nav-contact {
   min-height: 100%;
 }
 
-/* .img-box {
-  display: flex;
-  flex-wrap: no-wrap;
-  margin: 1rem 0;
-  padding: 0;
-} */
+
 .grid-img {
   padding: 0;
   margin: 0;
@@ -775,36 +771,59 @@ nav.sticky .nav-contact {
   aspect-ratio: 4.09 / 3;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 780px) {
 
-  .barber-pole {
-    height: 13%;
-    top: -20px;
-    left: 300px;
-    transform: rotate(-10deg);
+  .hero-container {
+    top: 45%;
   }
 
-  .razor {
-    position: absolute;
-    height: 13%;
+  .purple-splash-box {
+    
+    right: 190px;
+  }
+
+  .barber-pole {
+    height: 23%;
     top: -20px;
-    left: -30px;
+    left: 205px;
+    transform: rotate(-10deg);
+  }
+  .purple-splash {
+    transform: rotate(50deg);
+    position: relative;
+    height: 25%;
+    top: 30px;
+    left: 45px;
+  }
+  
+  .hero-scissors {
+    position: absolute;
+    height:38%;
+    top: 15px;
+    left: 130px;
+    transform: rotate(-30deg);
+  }
+
+  .nail-polish-box {
+    left: 100px;
+  }
+  .razor {
+    height: 21%;
+    top: -20px;
     transform: rotate(-10deg);
   }
   
   .heart {
-    position: absolute;
-    height: 12%;
-    top: 70px;
-    left: 10px;
-    
+    position: relative;
+    height: 20%;
+    top: 60px;
   }
 
   .nail-polish {
     position: relative;
-    height: 10%;
-    top: 180px;
-    left: -230px;
+    height: 20%;
+    top: 160px;
+    right: 40px;
   }
 
   .hero-center-text {
@@ -830,20 +849,7 @@ nav.sticky .nav-contact {
     font-weight: 800;
   }
 
-  .purple-splash {
-    transform: rotate(50deg);
-    position: relative;
-    height: 15%;
-    top: 30px;
-    left: -120px;
-    transform: rotate(40deg);
-  }
-  .hero-scissors {
-    height: 22%;
-    top: 10px;
-    left: 240px;
-    transform: rotate(-30deg);
-  }
+  
   
 }
 
@@ -851,14 +857,11 @@ nav.sticky .nav-contact {
 @media screen and (max-width: 480px) {
 
   .hero-container {
-   
-    top: 30%;
-   
+    top: 45%;
   }
-
   .hero-center-text {
     font-size: 31px;
-    line-height: 24px;
+    line-height: 26px;
   }
   .hero-text-dark {
     font-size: 28px;
@@ -877,48 +880,53 @@ nav.sticky .nav-contact {
     font-weight: 800;
   }
 
+  .purple-splash-box {
+    
+    right: 135px;
+  }
+
   .purple-splash {
     transform: rotate(50deg);
     position: relative;
-    height: 10%;
-    top: 160px;
-    left: -15px;
-    transform: rotate(40deg);
-  }
-  .hero-scissors {
-    height: 16%;
-    top: 140px;
-    left: 340px;
-    transform: rotate(-43deg);
+    height: 20%;
+    top: 80px;
+    left: 35px;
+    
   }
   .barber-pole {
-    height: 11%;
-    top: -10px;
-    left: 337px;
+    height: 18%;
+    top: -0px;
+    left: 145px;
     transform: rotate(-10deg);
   }
-
+  .hero-scissors {
+    height: 28%;
+    top: 75px;
+    left: 110px;
+    
+  }
+  .nail-polish-box {
+    left: 80px;
+  }
   .razor {
-    position: absolute;
-    height: 11%;
-    top: -15px;
-    left: -90px;
+    height: 18%;
+    top: -5px;
+    right: 0px;
+    left: 2px;
     transform: rotate(-10deg);
   }
   
   .heart {
-    position: absolute;
-    height: 8%;
-    top: 80px;
-    left: -70px;
-    
+    height: 18%;
+    top: 70px;
+    right: 250px;
   }
 
   .nail-polish {
-    position: relative;
-    height: 8%;
-    top: 170px;
-    left: -310px;
+   
+    height: 14%;
+    top: 150px;
+    right: 80px;
   }
 
 }
@@ -2383,9 +2391,18 @@ section {
 }
 
 
+@media screen and (max-width: 720px){
+  .testimonial-17 .block h1 {
+    font-size: 50px;
+    font-weight: 600;
+    
+  } 
+}
+
 @media screen and (max-width: 480px) {
   .testimonial-17 {
-    padding-top: 2rem;
+    padding-top: 6rem;
+    
 
   }
 
@@ -2863,7 +2880,14 @@ section {
   background-image: url(../images/mid-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 0;
+  background-position: center center;
+}
+
+@media screen and (max-width: 480px) {
+  .parallax-69 {
+    
+    background-attachment: unset;
+  }
 }
 
 .parallax-comingsoon-02 {
@@ -4720,6 +4744,10 @@ section {
     color: #fff;
     background-color: transparent;
     border: 0px solid #ff5617;
+  }
+
+  .testimonial-17-carousel {
+    padding-top: 3rem;
   }
   .testimonial-17-carousel.owl-theme
     .owl-controls.clickable
