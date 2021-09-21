@@ -1674,13 +1674,13 @@ nav.sticky .nav-contact {
 .mansory-effect .item-h2 {
   height: auto!important
 }
-.mansory-effect .picture {
+/* .mansory-effect .picture {
   background-color: #00acec;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
-}
+} */
 .mansory-effect .picture .caption {
   background-color: #fff;
   padding-top: 4px;
