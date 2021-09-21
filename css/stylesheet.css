@@ -921,7 +921,6 @@ nav.sticky .nav-contact {
     left: -310px;
   }
 
-
 }
 
 .home-33 #trigger-overlay span {
@@ -1111,9 +1110,17 @@ nav.sticky .nav-contact {
     line-height: 20px;
     
   }
+
+  
+  
+
 }
 
-
+@media screen and (max-width: 505px) {
+  .home-33 #portfolio figure:nth-child(2) {
+    padding-top: 10px;
+  }
+}
 .home-33 #portfolio.portfolio-overlay {
   /* -webkit-backface-visibility: hidden; */
   display: block;
