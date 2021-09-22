@@ -857,27 +857,23 @@ nav.sticky .nav-contact {
 @media screen and (max-width: 480px) {
 
   .hero-container {
-    top: 45%;
+    top: 36%;
   }
   .hero-center-text {
-    font-size: 31px;
-    line-height: 26px;
-  }
-  .hero-text-dark {
-    font-size: 28px;
-  }
-
-  .hero-text-heart {
-    font-size: 21px !important;
-  }
-  .hero-text-happiness {
     font-size: 28px;
     line-height: 22px;
   }
+  .hero-text-dark {
+    font-size: 26px;
+  }
 
-  .home-33 #portfolio .herotext h1 {
-    font-size: 50px;
-    font-weight: 800;
+  .hero-text-heart {
+    font-size: 18px !important;
+    -webkit-text-stroke: 2px rgb(233, 13, 13);
+  }
+  .hero-text-happiness {
+    font-size: 25px;
+    line-height: 22px;
   }
 
   .purple-splash-box {
@@ -917,15 +913,15 @@ nav.sticky .nav-contact {
   }
   
   .heart {
-    height: 18%;
-    top: 70px;
-    right: 250px;
+    height: 17%;
+    top: 80px;
+    left: 5px;
   }
 
   .nail-polish {
    
     height: 14%;
-    top: 150px;
+    top: 140px;
     right: 80px;
   }
 
@@ -1003,8 +999,8 @@ nav.sticky .nav-contact {
   float: left;
 }
 .home-33 #portfolio {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .home-33 #portfolio .herotext h1 {
   font-size: 70px;
@@ -1012,8 +1008,8 @@ nav.sticky .nav-contact {
   color: #000;
   margin-top: 0px;
 }
-.home-33 #portfolio .herotext2 h1 {
-  font-size: 70px;
+.home-33 #portfolio .herotext h1 {
+  font-size: 60px;
   font-weight: 900;
   color: #000;
   margin-top: 0px;
@@ -2399,19 +2395,7 @@ section {
   } 
 }
 
-@media screen and (max-width: 480px) {
-  .testimonial-17 {
-    padding-top: 6rem;
-    
 
-  }
-
-  .testimonial-17 .block h1 {
-    font-size: 40px;
-    font-weight: 600;
-    
-  }
-}
 /* ------------------------------------------------------ TESTIMONIAL 17 ENDS  ------------------ */
 /* ------------------------------------------------------ CAROUSEL 05 STARTS  ------------------ */
 
@@ -2887,6 +2871,9 @@ section {
   .parallax-69 {
     
     background-attachment: unset;
+  }
+  .testimonial-17 .col-padding {
+    padding-right: 0;
   }
 }
 
@@ -4719,18 +4706,48 @@ section {
     line-height: normal;
   }
 
+  .home-33 .services h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+    margin-top: 0px;
+  }
   .home-33 .services h1 {
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 900;
     color: #000;
     margin-top: 0px;
   }
+  .home-33 .services .description {
+    font-size: 1.8rem;
+    
+  }
+  .testimonial-17 {
+    padding-top: 2rem;
+    
+  }
+
   .testimonial-17 .block h1 {
-    font-size: 35px;
+    font-size: 26px;
     font-weight: 600;
     color: #fff;
     margin-top: 0px;
   }
+  .testimonial-17 .block .description {
+    font-size: 20px;
+    font-weight: 400;
+    
+  }
+  .testimonial-17 .block ul {
+    padding: 0 0 0 20px;
+
+  }
+
+  .testimonial-17 .block span {
+    color: #e8532b; 
+    font-weight: 700
+  }
+
   .testimonial-17-carousel.owl-theme
     .owl-controls
     .owl-page.active
@@ -4789,8 +4806,13 @@ section {
     -moz-border-radius: 0px;
     border-radius: 0px;
   }
+  #portfolio {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
   .home-33 #portfolio .herotext h1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 900;
     color: #000;
     margin-top: 0px;
@@ -4799,10 +4821,16 @@ section {
     padding-top: 10px;
   }
   .home-33 .mockup-section-14 .herotext h1 {
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 35px;
+    font-weight: 700;
     color: #000;
     margin-top: 0px;
+  }
+  .home-33 .mockup-section-14 .block h1 {
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
   }
   .home-33 .h-33-testimonial .herotext h1 {
     font-size: 50px;
@@ -4810,6 +4838,11 @@ section {
     color: #000;
     margin-top: 0px;
   }
+
+  #portfolio .herotext {
+    padding-bottom: 20px;
+  }
+
   .boxed-heading-01 {
     display: table;
     position: static;
@@ -4862,58 +4895,7 @@ section {
     top: -300px;
     z-index: 10000;
   }
-  .home-34 .testimonial-15 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    text-align: center;
-  }
-  .home-36 .digital-creatives {
-    padding-top: 30px;
-    padding-bottom: 50px;
-  }
-  .home-36 .our-ideology .herotext {
-    padding-top: 60px;
-  }
-  .home-36 .our-ideology .herotext h1 {
-    font-family: "Poppins", sans-serif !important;
-    font-size: 30px;
-    line-height: 30px;
-    text-align: left;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #303030;
-  }
-  .home-36 .team-style-13 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .home-36 .team-style-13 .herotext h1 {
-    font-family: "Poppins", sans-serif !important;
-    font-size: 30px;
-    line-height: 30px;
-    text-align: left;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #303030;
-  }
-  .home-36 .featured-work {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    text-align: center;
-  }
-  .home-36 .featured-work .herotext h1 {
-    font-family: "Poppins", sans-serif !important;
-    font-size: 30px;
-    line-height: 30px;
-    text-align: center;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #303030;
-  }
-  .home-36 .footer-09 .links {
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
+  
   .counter-01 .herotext,
   .counter-02 .herotext,
   .counter-05 .herotext,
